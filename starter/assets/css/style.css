@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding:0;
 }
 
 body {
@@ -7,17 +9,70 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+  
+} h1,h2,h3,h4,h5,h6 {
   margin: 0;
 }
 
 p {
   margin: 0;
 }
+
+/* sets the background image*/
+body{
+  min-height: 100vh;
+  background: url(../images/faded-gray-background-with-paint-brush-texture.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* navigation bar */
+
+/* in this section it shows my name and the nav bar */
+header{
+  background-color:gray;
+  display: flex;
+}
+
+header h1{
+  margin-left: 20px;
+  background-color:cornflowerblue;
+  display: inline-block;
+  font-size: 25px;
+  width: 20%;
+  margin-right: 45%;
+}
+
+/* this formats the nav bar */
+
+nav ul{
+
+  margin: 0px 100px;
+  display: inline-flex;
+  justify-content: end;
+  list-style: none;
+  flex: 2 1 auto;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+header li{
+  margin: 0px 10px;
+  border-bottom: 2px solid black;
+  color: cornflowerblue;
+}
+
+/* this organises the hero banner section */
+
+.hero-banner{
+background-size: cover;
+  background-position: center;
+width: 100%;
+height: 200px;
+}
+
+.hero-banner h2{
+  display: flex;
+  justify-content:center;
+  
+}
+
