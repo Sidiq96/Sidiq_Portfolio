@@ -61,6 +61,10 @@ header li{
   color: cornflowerblue;
 }
 
+/* These selectors allow you to navigate to different parts of the webpage */
+
+
+
 /* this organises the hero banner section */
 
 .hero-banner{
@@ -76,3 +80,98 @@ height: 200px;
   
 }
 
+/* this organises the about me section */
+
+.about-section{
+  margin: 40px;
+  border-left: 2px solid black;
+  margin-left: 350px;
+  margin-bottom: 150px;
+  
+}
+
+.about-section h2{
+  display: flex;
+  justify-content: center;
+  
+}
+
+/* this organises the project section */
+
+/* project grid */
+.sub-heading{
+  text-align: center;
+  width: 250px;
+  margin: 50px auto;
+}
+
+#projectGrid{
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 300px 300px 300px 300px;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  "proj-1 proj-1 proj-1 proj-1"
+  "proj-1 proj-1 proj-1 proj-1"
+  "proj-2 proj-2 proj-3 proj-3"
+  ;
+}
+
+#proj-1{
+  grid-area:proj-1;
+  background-image: url(../images/Screenshot\ 2023-10-09\ at\ 21.18.06.png);
+
+}
+
+#proj-2{
+  grid-area: proj-2;
+  background-image: url(../images/abstract-coming-soon-halftone-style-background-design_1017-27282.jpg.avif);
+  background-position: center;
+}
+
+#proj-3{
+  grid-area: proj-3;
+  background-image: url(../images/abstract-coming-soon-halftone-style-background-design_1017-27282.jpg.avif);
+  background-position: center;
+}
+
+.projectGridArea{
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+.heading{
+  background-color: rgb(0, 0, 0,0.7);
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  border-bottom: 5px solid #b33232;
+  border-left: 5px solid #b33232;
+  border-right: 5px solid #b33232;
+  border-top: 5px solid #b33232;
+}
+
+/* this is to organise the footer */
+
+footer{
+  display: flex;
+  
+  display: flex;
+  align-items: center;
+}
+
+footer h2{
+  margin-right: 850px;
+  border-right: 2px solid black;
+  background-color:cornflowerblue
+
+}
+
+#contact_details {
+   margin: 0px 10px;
+   word-spacing: 15px;
+   border-bottom: 2px solid black;
+}
