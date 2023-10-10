@@ -200,29 +200,48 @@ footer h2{
 
 /* in section is the media queries which allows the website to resize depending on the device */
 
+@media only screen and (max-width: 1500px) {
+  header{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.hero-banner{
+  display: none;
+}
+.about-section{
+  float: left;
+    display: block;
+    text-align: left;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+footer{
+  float: left;
+    display: block;
+    text-align: left;
+    padding: 1px 1px;
+    text-decoration: none;
+}
+
+}
+
 @media only screen and (max-width: 1000px) {
   header{
-    position: auto;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
   }
 .hero-banner{
-  position: auto;
-  margin: center;
-}
-
-}
-
-@media only screen and (max-width: 600px) {
-  header{
-    position: auto;
-    margin: auto;
-  }
-.hero-banner{
-  position: static;
-  margin: static;
+ display: none;
 }
 .projectGridArea{
-  grid-template-rows: 300px 300px 300px 300px;
-  grid-template-columns: 1fr;
+  grid-template-rows: 1500px 1500px 1500px 1500px;
+  grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "proj-1"
     "proj-1"
