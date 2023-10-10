@@ -162,11 +162,24 @@ height: 200px;
   border-top: 5px solid #b33232;
 }
 
+/* This makes the project boxes when you hover the mouse over them */
+
+#proj-1:hover{
+    width: 100%;
+    height: 100%;
+}
+#proj-2:hover{
+  width: 100%;
+  height: 100%;
+}
+#proj-3:hover{
+  width: 100%;
+  height: 100%;
+}
+
 /* this is to organise the footer */
 
 footer{
-  display: flex;
-  
   display: flex;
   align-items: center;
 }
@@ -183,4 +196,37 @@ footer h2{
    word-spacing: 15px;
    border-bottom: 2px solid black;
    text-decoration: none;
+}
+
+/* in section is the media queries which allows the website to resize depending on the device */
+
+@media only screen and (max-width: 1000px) {
+  header{
+    position: auto;
+  }
+.hero-banner{
+  position: auto;
+  margin: center;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+  header{
+    position: auto;
+    margin: auto;
+  }
+.hero-banner{
+  position: static;
+  margin: static;
+}
+.projectGridArea{
+  grid-template-rows: 300px 300px 300px 300px;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "proj-1"
+    "proj-1"
+    "proj-2"
+    "proj-3"
+}
 }
