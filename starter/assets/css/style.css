@@ -62,7 +62,15 @@ header li{
 }
 
 /* These selectors allow you to navigate to different parts of the webpage */
-
+    #about-me:target{
+      scroll-padding-top: 5px;
+    }
+    #project:target{
+      scroll-padding-top: 5px;
+  }
+    #contact_me:target{
+      scroll-padding-top: 5px;
+    }
 
 
 /* this organises the hero banner section */
@@ -174,4 +182,5 @@ footer h2{
    margin: 0px 10px;
    word-spacing: 15px;
    border-bottom: 2px solid black;
+   text-decoration: none;
 }
