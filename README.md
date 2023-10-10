@@ -48,7 +48,7 @@ of the page. Clicking any of the links will allows user to jump right to the par
 * [Grid cheatsheet] (https://grid.malven.co)
 * [CSS flex items] (https://www.w3schools.com/css/css3_flexbox_items.asp)
 * [css hyperlinks] (https://www.w3schools.com/html/html_links.asp)
-* [css media queries]()
+* [css media queries](https://www.w3schools.com/cssref/css3_pr_mediaquery.php)
 
 
 ## License
