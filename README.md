@@ -31,7 +31,7 @@ When the page is resized or viewed on various screens and devices then the layou
 
 ## Installation
 
-The steps required to access is throught this link (https://sidiq96.github.io/accessibility-refactor/), By clicking this link will lead to the website and be able to see it. As you can see in the screenshot below.
+The steps required to access is throught this link (https://sidiq96.github.io/Sidiq_Portfolio/), By clicking this link will lead to the website and be able to see it. As you can see in the screenshot below.
 
 ![screenshot of website](/Challenges/02-modules/Sidiq_Portfolio/starter/assets/images/Screenshot%202023-10-10%20at%2016.21.31.png)
 
